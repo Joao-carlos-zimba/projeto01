@@ -80,9 +80,13 @@ section h4, .jogos {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
     
 }
 
+table {
+    margin-left: 450px;
+}
 td {
     background-color: rgb(12, 0, 0);
     padding: 10px;
@@ -102,16 +106,18 @@ tr {
     
 }
 
+.social {
+    height: 35px;
+    display: block;
+    margin-right: 250px;
+}
 .social-links img {  /*chama class do html */
     height: 35px;
+    margin-left: 75px;
 }
-
 
 .social-links li {
     display: inline;
-    margin-right: 3px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .social-links li a {
@@ -128,6 +134,14 @@ tr {
 .contact-methods {
     display: flex;
     justify-content: space-between;
+}
+
+.formulario{
+    margin-left: 140px;
+}
+
+.subtitulo {
+    margin-left: 60px;
 }
 
 form input, form textarea, form button {

@@ -8,15 +8,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2? family=Bungee+Inline&family=Lumanosimo&family=Oxanium:wght@300;400;700&family=Pangolin&family=Roboto+Slab&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? family=Bungee+Inline&family=Lumanosimo&family=Oxanium:wght@300;400;700&family=Pangolin&family=Roboto+Slab&display=swap" rel="stylesheet">
 
     <title>Copa do Mundo Feminina</title>
 
 </head>
 
 <body>
+
     <header>
         <div class="container">
             <h1>Copa do Mundo Feminina | FIFA 2023</h1>
@@ -35,6 +34,7 @@
             </nav>
         </div>
     </header> <!-- Fim cabeçalho -->
+
     <section id="sobre">
         <div class="container">
             <img class="banner-copa" src="./img/copa-do-mundo-2023.jpg" alt="Banner Copa do mundo com a Marta" />
@@ -53,8 +53,9 @@
             </div>
         </div>
     </section>
+
     <section id="jogos-brasil">
-        <di class="tabela-jogos">
+        <div class="tabela-jogos">
             <h4>Jogos do Brasil</h4>
             <div class="jogos">
                 <div>
@@ -82,37 +83,41 @@
                     </table>
                 </div>
             </div>
-        </di>
+            </di>
     </section>
+
     <section id="pergunta">
         <div class="contanier">
-            <h2">Pergunta sobre a Copa do Mundo</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Mande sua pergunta</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required />
-                        <input type="email" placeholder="Seu e-mail" required />
-                        <input type="tel" placeholder="Seu número de telefone (opcional)" />
-                        <textarea placeholder="Sua pergunta" required></textarea>
-                        <button type="submit">Enviar pergunta</button>
-                    </form>
+            <h2>Pergunta sobre a Copa do Mundo</h2>
+                <div class="contact-methods">
+                    <div class="formulario">
+                        <h3 class="subtitulo">Mande sua pergunta</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required />
+                            <input type="email" placeholder="Seu e-mail" required />
+                            <input type="tel" placeholder="Seu número de telefone (opcional)" />
+                            <textarea placeholder="Sua pergunta" required></textarea>
+                            <button type="submit">Enviar pergunta</button>
+                        </form>
+                    </div>
+
+                    <div class="social">
+                        <h3>Acompanhe os demais jogos da Copa</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="https://ge.globo.com/futebol/copa-do-mundo-feminina/" title="ge.com">
+                                    <img src="./img/Ge.globo_logo.png" alt="logo do globo esporte" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-mundo-feminina/#fase-de-grupos"
+                                    title="uol.com">
+                                    <img src="./img/logo_uol.png" alt="logo do uol" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <h3>Acompanhe os demais jogos da Copa</h3>
-                <ul class="social-links">
-                    <li>
-                        <a href="https://ge.globo.com/futebol/copa-do-mundo-feminina/" title="ge.com">
-                            <img src="./img/Ge.globo_logo.png" alt="logo do globo esporte" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-mundo-feminina/#fase-de-grupos"
-                            title="uol.com">
-                            <img src="./img/logo_uol.png" alt="logo do uol" />
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </section>
 </body>
